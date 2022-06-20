@@ -17,6 +17,17 @@
 | Login to site | Make decision by analyzing large collection of books |
 
 <br>
+<hr>
+<br>
+
+3. [CoinMarketCap][3]
+
+| Deliverable                   | Benefit                                  |
+| ----------------------------- | ---------------------------------------- |
+| Extract cryptocurrencies data | Track rise & fall in cryptocurrencies    |
+|                               | Track your current cryptocurrency status |
+
+<br>
 <br>
 <hr>
 <hr>
@@ -34,7 +45,15 @@
 
 2. [Open Library][2]
 
+<br>
+<hr>
+<br>
 
+3. [CoinMarketCap][3]
+
+* CRON scrape CoinMarketCap.
+* Save to DB
+* Export to Excel
 
 <br>
 <br>
@@ -48,6 +67,7 @@
 
 * [Quotes][1]
 * [Open Library][2]
+* [CoinMarketCap][3]
 
 
 
@@ -59,3 +79,4 @@
 
 [1]: http://quotes.toscrape.com/login "Quotes Static Login - Scraping Hub"
 [2]: https://openlibrary.org/account/login "Internet Library - Open Library"
+[3]: https://coinmarketcap.com/ "CoinMarketCap"

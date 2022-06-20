@@ -65,8 +65,7 @@ DEFAULT_REQUEST_HEADERS = \
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = \
     {
-        # 'AhmedRafik.pipelines.AhmedrafikPipeline': 300,
-        'scrapy.pipelines.images.ImagesPipeline': 1
+        'AhmedRafik.Pipelines.CoinMarketCapImagesPipeline.CoinMarketCapImagesPipeline': 1
     }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

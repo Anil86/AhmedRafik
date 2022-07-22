@@ -46,14 +46,17 @@ DEFAULT_REQUEST_HEADERS = \
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    'AhmedRafik.middlewares.AhmedrafikSpiderMiddleware': 543,
+#    'AhmedRafik.middlewares.AhmedRafikSpiderMiddleware': 543,
 # }
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
-# DOWNLOADER_MIDDLEWARES = {
-#    'AhmedRafik.middlewares.AhmedrafikDownloaderMiddleware': 543,
-# }
+DOWNLOADER_MIDDLEWARES = \
+    {
+        'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+        'AhmedRafik.Middlewares.RandomUserAgentMiddleware.RandomUserAgentMiddleware': 400
+        # 'AhmedRafik.middlewares.AhmedRafikDownloaderMiddleware': 543,
+    }
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html

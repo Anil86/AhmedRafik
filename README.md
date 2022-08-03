@@ -39,6 +39,17 @@
 |                                              | Guest: Find vacation house w/ max amenities & least price |
 
 <br>
+<hr>
+<br>
+
+5. [Craigslist][5]
+
+| Deliverable  | Benefit                |
+| ------------ | ---------------------- |
+| List gigs    | Delegate routine tasks |
+| List resumes | Expand workforce       |
+
+<br>
 <br>
 <hr>
 <hr>
@@ -75,6 +86,14 @@
 * Find what amenities affect ratings.
 
 <br>
+<hr>
+<br>
+
+5. [Craigslist][5]
+
+* Analyse resumes of pool of candidates.
+
+<br>
 <br>
 <hr>
 <hr>
@@ -88,6 +107,7 @@
 * [Open Library][2]
 * [CoinMarketCap][3]
 * [Airbnb][4]
+* [Craigslist][5]
 
 
 
@@ -101,3 +121,4 @@
 [2]: https://openlibrary.org/account/login "Internet Library - Open Library"
 [3]: https://coinmarketcap.com/ "CoinMarketCap"
 [4]: https://www.airbnb.co.in/ "Airbnb"
+[5]: https://www.craigslist.org/about/sites "Craigslist"
